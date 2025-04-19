@@ -75,3 +75,55 @@
 .tab-form-button {
     margin: 4px;
 }
+
+
+/* Pagination */
+
+.pagination-container {
+    background-color: aliceblue;
+    padding: 8px;
+}
+
+.pagination-product-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 75vh;
+    overflow: scroll;
+}
+
+.pagination-product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(211, 232, 250);
+    border-radius: 4px;
+    margin: 4px;
+    padding: 4px;
+    width: 200px;
+    height: 200px;
+}
+
+.pagination-img-card {
+    width: 150px;
+    height: 150px;
+}
+
+.pagination-footer {
+    display: flex;
+    margin: 6px;
+}
+
+.pagination-results-dropdown {
+    display: flex;
+    margin: 4px;
+}
+
+.pagination-select-dropdown {
+    width: 60px;
+    height: 24px;
+}
+
+.pagination-results-text {
+    margin: 0 32px 0 8px;
+}
