@@ -12,14 +12,19 @@ const App = () => {
       path: '/tab-form',
     },
     {
-      name: "Nested Checkbox",
-      description: "Create a Nested checkobox functionality.",
-      path: '/nested-checkbox',
-    },
-    {
       name: "Pagination",
       description: "Create a Pagination functionality.",
       path: '/pagination',
+    },
+    {
+      name: "Auto Complete",
+      description: "Create a Search input bar with auto complete functionality.",
+      path: '/auto-complete',
+    },
+    {
+      name: "Nested Checkbox",
+      description: "Create a Nested checkobox functionality.",
+      path: '/nested-checkbox',
     },
   ];
 

@@ -5,6 +5,7 @@ import App from "./App.jsx";
 import TabForm from "./components/Tab-Form/TabForm.jsx";
 import NestedCheckbox from "./components/NestedCheckbox/NestedCheckbox.jsx";
 import Pagination from "./components/Pagination/Pagination.jsx";
+import AutoComplete from "./components/Auto-Complete/AutoComplete.jsx";
 
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
@@ -13,8 +14,10 @@ createRoot(document.getElementById("root")).render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/tab-form" element={<TabForm />} />
-      <Route path="/nested-checkbox" element={<NestedCheckbox />} />
       <Route path="/pagination" element={<Pagination />} />
+      <Route path="/auto-complete" element={<AutoComplete />} />
+      <Route path="/nested-checkbox" element={<NestedCheckbox />} />
+
     </Routes>
   </BrowserRouter>
 );
