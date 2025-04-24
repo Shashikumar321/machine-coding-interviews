@@ -22,6 +22,11 @@ const App = () => {
       path: '/auto-complete',
     },
     {
+      name: "File Explorer",
+      description: "Create a File-Folder explorer functionality similar to VS code File explorer.",
+      path: '/file-explorer',
+    },
+    {
       name: "Nested Checkbox",
       description: "Create a Nested checkobox functionality.",
       path: '/nested-checkbox',

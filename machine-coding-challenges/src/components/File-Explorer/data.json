@@ -1,0 +1,98 @@
+[
+    {
+        "name": "file-explorer",
+        "id": "0",
+        "isFolder": true,
+        "children": [
+            {
+                "name": "node_modules",
+                "id": "1",
+                "isFolder": true,
+                "children": [
+                    {
+                        "name": "package_1",
+                        "id": "11",
+                        "isFolder": true,
+                        "children": [
+                            {
+                                "name": "package_file_1",
+                                "id": "111",
+                                "isFolder": false
+                            }
+                        ]
+                    },
+                    {
+                        "name": "package_2",
+                        "id": "12",
+                        "isFolder": true,
+                        "children": [
+                            {
+                                "name": "package_file_2",
+                                "id": "121",
+                                "isFolder": false
+                            }
+                        ]
+                    },
+                    {
+                        "name": "package_3",
+                        "id": "13",
+                        "isFolder": true,
+                        "children": [
+                            {
+                                "name": "package_file_3",
+                                "id": "131",
+                                "isFolder": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "public",
+                "id": "2",
+                "isFolder": true,
+                "children": [
+                    {
+                        "name": "public_file",
+                        "id": "21",
+                        "isFolder": false
+                    }
+                ]
+            },
+            {
+                "name": "src",
+                "id": "3",
+                "isFolder": true,
+                "children": [
+                    {
+                        "name": "components",
+                        "id": "31",
+                        "isFolder": true,
+                        "children": [
+                            {
+                                "name": "home.jsx",
+                                "id": "311",
+                                "isFolder": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "index.html",
+                "id": "4",
+                "isFolder": false
+            },
+            {
+                "name": "README.md",
+                "id": "5",
+                "isFolder": false
+            },
+            {
+                "name": "vite.config.js",
+                "id": "6",
+                "isFolder": false
+            }
+        ]
+    }
+]
