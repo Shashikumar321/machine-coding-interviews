@@ -197,3 +197,26 @@
     display: block;
     margin-left: 36px;
   }
+
+
+/* progress bar */
+
+  .progress-bar-parent-container {
+    width: 30%;
+    margin-left: 10px;
+  }
+
+  .progress-bar-outer {
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+
+  .progress-bar-inner {
+    background-color: green;
+    padding-right: 6px;
+    color: white;
+    transition: 0.6s ease-in;
+    text-align: right;
+  }

@@ -27,6 +27,11 @@ const App = () => {
       path: '/file-explorer',
     },
     {
+      name: "Progress Bar",
+      description: "Create a Progress bar functionality with transition.",
+      path: '/progress-bar',
+    },
+    {
       name: "Nested Checkbox",
       description: "Create a Nested checkobox functionality.",
       path: '/nested-checkbox',

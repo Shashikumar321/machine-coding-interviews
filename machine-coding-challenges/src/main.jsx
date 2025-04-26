@@ -7,6 +7,7 @@ import NestedCheckbox from "./components/NestedCheckbox/NestedCheckbox.jsx";
 import Pagination from "./components/Pagination/Pagination.jsx";
 import AutoComplete from "./components/Auto-Complete/AutoComplete.jsx";
 import FileExplorer from "./components/File-Explorer/FileExplorer.jsx";
+import ProgressBar from "./components/Progress-Bar/ProgressBar.jsx";
 
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
@@ -18,6 +19,8 @@ createRoot(document.getElementById("root")).render(
       <Route path="/pagination" element={<Pagination />} />
       <Route path="/auto-complete" element={<AutoComplete />} />
       <Route path="/file-explorer" element={<FileExplorer />} />
+      <Route path="/progress-bar" element={<ProgressBar />} />
+
       <Route path="/nested-checkbox" element={<NestedCheckbox />} />
 
     </Routes>
