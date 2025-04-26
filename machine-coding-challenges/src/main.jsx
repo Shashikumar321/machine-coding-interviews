@@ -8,6 +8,8 @@ import Pagination from "./components/Pagination/Pagination.jsx";
 import AutoComplete from "./components/Auto-Complete/AutoComplete.jsx";
 import FileExplorer from "./components/File-Explorer/FileExplorer.jsx";
 import ProgressBar from "./components/Progress-Bar/ProgressBar.jsx";
+import OTPInput from "./components/OTP-Input/OTPInput.jsx";
+
 
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
@@ -20,6 +22,8 @@ createRoot(document.getElementById("root")).render(
       <Route path="/auto-complete" element={<AutoComplete />} />
       <Route path="/file-explorer" element={<FileExplorer />} />
       <Route path="/progress-bar" element={<ProgressBar />} />
+      <Route path="/otp-input" element={<OTPInput />} />
+
 
       <Route path="/nested-checkbox" element={<NestedCheckbox />} />
 

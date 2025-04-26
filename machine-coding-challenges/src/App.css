@@ -12,17 +12,17 @@ body {
 
 .cardslist-container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .card-container {
-  /* background-color: rgb(222, 221, 221); */
   background: linear-gradient(45deg, #ffd8d8, #fff9e2);
   border: 1px solid black;
   border-radius: 8px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);;
   margin: 8px;
   padding: 8px;
-  width: 200px;
+  width: 195px;
   height: 250px;
   cursor: pointer;
 }
@@ -32,6 +32,10 @@ body {
   width: 210px;
   height: 260px;
 }
+
+
+
+
 
 /* Tab-Form */
 
@@ -80,6 +84,9 @@ body {
 .tab-form-button {
   margin: 4px;
 }
+
+
+
 
 /* Pagination */
 
@@ -132,6 +139,10 @@ body {
   margin: 0 32px 0 8px;
 }
 
+
+
+
+
 /* Auto-Complete */
 
 .auto-complete-parent-container {
@@ -174,6 +185,9 @@ body {
   cursor: pointer;
 }
 
+
+
+
 /* file-explorer */
 
 .file-explorer-node-container {
@@ -182,10 +196,6 @@ body {
   border-left: 0.1px solid black;
   margin-left: 4px;
 }
-
-/* .file-explorer-node-container {
-    border-left: 0;
-} */
 
 .file-explorer-arrow {
   cursor: pointer;
@@ -205,6 +215,9 @@ body {
     display: block;
     margin-left: 36px;
   }
+
+
+
 
 
 /* progress bar */
@@ -227,4 +240,35 @@ body {
     color: white;
     transition: 0.6s ease-in;
     text-align: right;
+  }
+  
+
+
+  /* OTP-Input */
+
+
+  .otp-input-container {
+    margin-left: 100px;
+    margin-top: 30px;
+  }
+
+  .otp-input-text {
+    margin: 8px;
+    font-weight: bold;
+    font-size: larger;
+  }
+
+  .otp-input-box {
+    border: solid 2px black;
+    width: 50px;
+    height: 50px;
+    margin: 4px;
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .opt-input-reset-button {
+    margin-top: 16px;
+    margin-left: 4px;
+    padding: 6px;
   }

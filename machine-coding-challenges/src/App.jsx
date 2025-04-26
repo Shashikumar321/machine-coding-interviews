@@ -13,7 +13,7 @@ const App = () => {
     },
     {
       name: "Pagination",
-      description: "Create a Pagination functionality.",
+      description: "Create a Pagination functionality with modifiable results per page option. Add buttons to navigate to 1st page and last page",
       path: '/pagination',
     },
     {
@@ -23,7 +23,7 @@ const App = () => {
     },
     {
       name: "File Explorer",
-      description: "Create a File-Folder explorer functionality similar to VS code File explorer.",
+      description: "Create a File-Folder explorer functionality similar to VS code File explorer. File explorer should have create folder, delete folder features.",
       path: '/file-explorer',
     },
     {
@@ -32,10 +32,15 @@ const App = () => {
       path: '/progress-bar',
     },
     {
+      name: "OTP Input",
+      description: "Create a OTP input functionality with reset button.",
+      path: '/otp-input',
+    },
+    {
       name: "Nested Checkbox",
       description: "Create a Nested checkobox functionality.",
       path: '/nested-checkbox',
-    },
+    }
   ];
 
   return (
